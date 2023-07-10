@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Calculator;
+use App\Http\Livewire\TodoList;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ Route::get('/', function () {
 })->name('counter');
 
 Route::get('/calculator', Calculator::class)->name('calculator');
+Route::get('/todo-list', TodoList::class)->name('todo-list');
