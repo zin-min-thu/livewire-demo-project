@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Calculator;
 use App\Http\Livewire\TodoList;
+use App\Http\Livewire\CascadingDropdown;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,4 @@ Route::get('/', function () {
 
 Route::get('/calculator', Calculator::class)->name('calculator');
 Route::get('/todo-list', TodoList::class)->name('todo-list');
+Route::get('/cascading-dropdown', CascadingDropdown::class)->name('cascading-dropdown');

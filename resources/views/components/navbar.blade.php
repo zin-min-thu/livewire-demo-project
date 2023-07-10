@@ -34,7 +34,7 @@
               <a href="{{ url('/') }}" class="{{ request()->routeIs('counter') ? 'bg-gray-900 ' : '' }}text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Counter</a>
               <a href="{{ url('calculator') }}" class="{{ request()->routeIs('calculator') ? 'bg-gray-900 ' : '' }} text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calculator</a>
               <a href="{{ route('todo-list') }}" class="{{ request()->routeIs('todo-list') ? 'bg-gray-900 ' : '' }} text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">TodoList</a>
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Cascading Dropdown</a>
+              <a href="{{ route('cascading-dropdown') }}" class="{{ request()->routeIs('cascading-dropdown') ? 'bg-gray-900 ' : '' }} text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Cascading Dropdown</a>
               <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Products</a>
               <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Image Upload</a>
               <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Registration</a>
