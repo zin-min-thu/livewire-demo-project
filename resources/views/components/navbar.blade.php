@@ -37,7 +37,7 @@
               <a href="{{ route('cascading-dropdown') }}" class="{{ request()->routeIs('cascading-dropdown') ? 'bg-gray-900 ' : '' }} text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Cascading Dropdown</a>
               <a href="{{ route('products') }}" class="{{ request()->routeIs('products') ? 'bg-gray-900 ' : '' }} text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Products</a>
               <a href="{{ route('image-upload') }}" class="{{ request()->routeIs('image-upload') ? 'bg-gray-900 ' : '' }} text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Image Upload</a>
-              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Registration</a>
+              <a href="{{ route('register') }}" class="{{ request()->routeIs('register') ? 'bg-gray-900 ' : '' }} text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Registration</a>
             </div>
           </div>
         </div>
