@@ -23,6 +23,8 @@ class CascadingDropdown extends Component
 
     public function changeContinent()
     {
+        sleep(1);
+
         if($this->selectedContinent !== '-1') {
             $this->countries = Country::where('continent_id', $this->selectedContinent)->orderBy('name', 'asc')->get();
         }
